@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA6D5DE01B70024700AFF419 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6D5DDF1B70024700AFF419 /* ContactDetailsViewController.swift */; };
+		BA6D5DE21B700D8500AFF419 /* contactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6D5DE11B700D8500AFF419 /* contactCell.swift */; };
+		BA6D5DE41B700F3800AFF419 /* contactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6D5DE31B700F3800AFF419 /* contactCell.xib */; };
+		BA6D5DE71B71C5B500AFF419 /* AutoActsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6D5DE51B71C5B500AFF419 /* AutoActsTableViewCell.swift */; };
+		BA6D5DE81B71C5B500AFF419 /* AutoActsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6D5DE61B71C5B500AFF419 /* AutoActsTableViewCell.xib */; };
+		BA6D5DEC1B71CD4D00AFF419 /* AddAutoActsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6D5DEB1B71CD4D00AFF419 /* AddAutoActsViewController.swift */; };
+		BA9A35A21B71FE8400016890 /* ButtonSeqsDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9A35A11B71FE8400016890 /* ButtonSeqsDatabase.swift */; };
+		BA9A35A71B72C48E00016890 /* UserDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA9A35A51B72C48E00016890 /* UserDatabase.xcdatamodeld */; };
+		BA9A36A91B77130500016890 /* selectedHomeButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA9A36A11B77130500016890 /* selectedHomeButton.jpg */; };
+		BA9A36AA1B77130500016890 /* selectedPowerButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA9A36A21B77130500016890 /* selectedPowerButton.jpg */; };
+		BA9A36AB1B77130500016890 /* selectedVolDownButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA9A36A31B77130500016890 /* selectedVolDownButton.jpg */; };
+		BA9A36AC1B77130500016890 /* selectedVolUpButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA9A36A41B77130500016890 /* selectedVolUpButton.jpg */; };
+		BA9A36AD1B77130500016890 /* unselectedHomeButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA9A36A51B77130500016890 /* unselectedHomeButton.jpg */; };
+		BA9A36AE1B77130500016890 /* unselectedPowerButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA9A36A61B77130500016890 /* unselectedPowerButton.jpg */; };
+		BA9A36AF1B77130500016890 /* unselectedVolDownButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA9A36A71B77130500016890 /* unselectedVolDownButton.jpg */; };
+		BA9A36B01B77130500016890 /* unselectedVolUpButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA9A36A81B77130500016890 /* unselectedVolUpButton.jpg */; };
 		BAB802C11B6D5BA3003501E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB802C01B6D5BA3003501E9 /* AppDelegate.swift */; };
 		BAB802C31B6D5BA3003501E9 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB802C21B6D5BA3003501E9 /* MasterViewController.swift */; };
 		BAB802C51B6D5BA3003501E9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB802C41B6D5BA3003501E9 /* DetailViewController.swift */; };
@@ -14,6 +30,11 @@
 		BAB802CA1B6D5BA3003501E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB802C91B6D5BA3003501E9 /* Images.xcassets */; };
 		BAB802CD1B6D5BA3003501E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAB802CB1B6D5BA3003501E9 /* LaunchScreen.xib */; };
 		BAB802D91B6D5BA3003501E9 /* MDTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB802D81B6D5BA3003501E9 /* MDTesterTests.swift */; };
+		BAB802E51B6DA8F6003501E9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB802E41B6DA8F6003501E9 /* ProfileViewController.swift */; };
+		BAB802E71B6DA90A003501E9 /* AutomatedActionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB802E61B6DA90A003501E9 /* AutomatedActionsViewController.swift */; };
+		BAB802E91B6DA928003501E9 /* ButtonSequencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB802E81B6DA928003501E9 /* ButtonSequencesViewController.swift */; };
+		BAE4D2361B82BA3900CCFAF4 /* JPSVolumeButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE4D2351B82BA3900CCFAF4 /* JPSVolumeButtonHandler.m */; };
+		BAE4D2391B83F5E300CCFAF4 /* HardwareHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE4D2381B83F5E300CCFAF4 /* HardwareHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +48,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA4CB5F01B7BF6F500FC073B /* MDTester-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDTester-Bridging-Header.h"; sourceTree = "<group>"; };
+		BA6D5DDF1B70024700AFF419 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+		BA6D5DE11B700D8500AFF419 /* contactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = contactCell.swift; path = ../contactCell.swift; sourceTree = "<group>"; };
+		BA6D5DE31B700F3800AFF419 /* contactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = contactCell.xib; sourceTree = "<group>"; };
+		BA6D5DE51B71C5B500AFF419 /* AutoActsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoActsTableViewCell.swift; sourceTree = "<group>"; };
+		BA6D5DE61B71C5B500AFF419 /* AutoActsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoActsTableViewCell.xib; sourceTree = "<group>"; };
+		BA6D5DEB1B71CD4D00AFF419 /* AddAutoActsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAutoActsViewController.swift; sourceTree = "<group>"; };
+		BA9A35A11B71FE8400016890 /* ButtonSeqsDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonSeqsDatabase.swift; sourceTree = "<group>"; };
+		BA9A35A61B72C48E00016890 /* UserDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserDatabase.xcdatamodel; sourceTree = "<group>"; };
+		BA9A36A11B77130500016890 /* selectedHomeButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = selectedHomeButton.jpg; path = "../../../Iphone Buttons/selectedHomeButton.jpg"; sourceTree = "<group>"; };
+		BA9A36A21B77130500016890 /* selectedPowerButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = selectedPowerButton.jpg; path = "../../../Iphone Buttons/selectedPowerButton.jpg"; sourceTree = "<group>"; };
+		BA9A36A31B77130500016890 /* selectedVolDownButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = selectedVolDownButton.jpg; path = "../../../Iphone Buttons/selectedVolDownButton.jpg"; sourceTree = "<group>"; };
+		BA9A36A41B77130500016890 /* selectedVolUpButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = selectedVolUpButton.jpg; path = "../../../Iphone Buttons/selectedVolUpButton.jpg"; sourceTree = "<group>"; };
+		BA9A36A51B77130500016890 /* unselectedHomeButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = unselectedHomeButton.jpg; path = "../../../Iphone Buttons/unselectedHomeButton.jpg"; sourceTree = "<group>"; };
+		BA9A36A61B77130500016890 /* unselectedPowerButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = unselectedPowerButton.jpg; path = "../../../Iphone Buttons/unselectedPowerButton.jpg"; sourceTree = "<group>"; };
+		BA9A36A71B77130500016890 /* unselectedVolDownButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = unselectedVolDownButton.jpg; path = "../../../Iphone Buttons/unselectedVolDownButton.jpg"; sourceTree = "<group>"; };
+		BA9A36A81B77130500016890 /* unselectedVolUpButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = unselectedVolUpButton.jpg; path = "../../../Iphone Buttons/unselectedVolUpButton.jpg"; sourceTree = "<group>"; };
 		BAB802BB1B6D5BA3003501E9 /* MDTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB802BF1B6D5BA3003501E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAB802C01B6D5BA3003501E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +76,13 @@
 		BAB802D21B6D5BA3003501E9 /* MDTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB802D71B6D5BA3003501E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAB802D81B6D5BA3003501E9 /* MDTesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDTesterTests.swift; sourceTree = "<group>"; };
+		BAB802E41B6DA8F6003501E9 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BAB802E61B6DA90A003501E9 /* AutomatedActionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutomatedActionsViewController.swift; sourceTree = "<group>"; };
+		BAB802E81B6DA928003501E9 /* ButtonSequencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonSequencesViewController.swift; sourceTree = "<group>"; };
+		BAE4D2341B82BA3900CCFAF4 /* JPSVolumeButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPSVolumeButtonHandler.h; path = "../../../../Downloads/JPSVolumeButtonHandler-master/JPSVolumeButtonHandler/JPSVolumeButtonHandler.h"; sourceTree = "<group>"; };
+		BAE4D2351B82BA3900CCFAF4 /* JPSVolumeButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPSVolumeButtonHandler.m; path = "../../../../Downloads/JPSVolumeButtonHandler-master/JPSVolumeButtonHandler/JPSVolumeButtonHandler.m"; sourceTree = "<group>"; };
+		BAE4D2371B83F5E300CCFAF4 /* HardwareHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HardwareHandler.h; sourceTree = "<group>"; };
+		BAE4D2381B83F5E300CCFAF4 /* HardwareHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HardwareHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +109,7 @@
 				BAB802BD1B6D5BA3003501E9 /* MDTester */,
 				BAB802D51B6D5BA3003501E9 /* MDTesterTests */,
 				BAB802BC1B6D5BA3003501E9 /* Products */,
+				BA4CB5F01B7BF6F500FC073B /* MDTester-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +125,25 @@
 		BAB802BD1B6D5BA3003501E9 /* MDTester */ = {
 			isa = PBXGroup;
 			children = (
+				BA9A35A51B72C48E00016890 /* UserDatabase.xcdatamodeld */,
+				BA6D5DE11B700D8500AFF419 /* contactCell.swift */,
+				BA6D5DE31B700F3800AFF419 /* contactCell.xib */,
+				BA6D5DDF1B70024700AFF419 /* ContactDetailsViewController.swift */,
+				BAB802E81B6DA928003501E9 /* ButtonSequencesViewController.swift */,
+				BAB802E61B6DA90A003501E9 /* AutomatedActionsViewController.swift */,
+				BAB802E41B6DA8F6003501E9 /* ProfileViewController.swift */,
 				BAB802C01B6D5BA3003501E9 /* AppDelegate.swift */,
+				BAE4D2341B82BA3900CCFAF4 /* JPSVolumeButtonHandler.h */,
+				BAE4D2371B83F5E300CCFAF4 /* HardwareHandler.h */,
+				BAE4D2381B83F5E300CCFAF4 /* HardwareHandler.m */,
+				BAE4D2351B82BA3900CCFAF4 /* JPSVolumeButtonHandler.m */,
 				BAB802C21B6D5BA3003501E9 /* MasterViewController.swift */,
 				BAB802C41B6D5BA3003501E9 /* DetailViewController.swift */,
+				BA6D5DEB1B71CD4D00AFF419 /* AddAutoActsViewController.swift */,
+				BA9A35A11B71FE8400016890 /* ButtonSeqsDatabase.swift */,
 				BAB802C61B6D5BA3003501E9 /* Main.storyboard */,
+				BA6D5DE51B71C5B500AFF419 /* AutoActsTableViewCell.swift */,
+				BA6D5DE61B71C5B500AFF419 /* AutoActsTableViewCell.xib */,
 				BAB802C91B6D5BA3003501E9 /* Images.xcassets */,
 				BAB802CB1B6D5BA3003501E9 /* LaunchScreen.xib */,
 				BAB802BE1B6D5BA3003501E9 /* Supporting Files */,
@@ -93,6 +154,14 @@
 		BAB802BE1B6D5BA3003501E9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BA9A36A11B77130500016890 /* selectedHomeButton.jpg */,
+				BA9A36A21B77130500016890 /* selectedPowerButton.jpg */,
+				BA9A36A31B77130500016890 /* selectedVolDownButton.jpg */,
+				BA9A36A41B77130500016890 /* selectedVolUpButton.jpg */,
+				BA9A36A51B77130500016890 /* unselectedHomeButton.jpg */,
+				BA9A36A61B77130500016890 /* unselectedPowerButton.jpg */,
+				BA9A36A71B77130500016890 /* unselectedVolDownButton.jpg */,
+				BA9A36A81B77130500016890 /* unselectedVolUpButton.jpg */,
 				BAB802BF1B6D5BA3003501E9 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,8 +264,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9A36AE1B77130500016890 /* unselectedPowerButton.jpg in Resources */,
+				BA9A36AD1B77130500016890 /* unselectedHomeButton.jpg in Resources */,
+				BA6D5DE41B700F3800AFF419 /* contactCell.xib in Resources */,
+				BA9A36A91B77130500016890 /* selectedHomeButton.jpg in Resources */,
+				BA9A36AC1B77130500016890 /* selectedVolUpButton.jpg in Resources */,
 				BAB802C81B6D5BA3003501E9 /* Main.storyboard in Resources */,
+				BA9A36B01B77130500016890 /* unselectedVolUpButton.jpg in Resources */,
+				BA9A36AA1B77130500016890 /* selectedPowerButton.jpg in Resources */,
+				BA9A36AF1B77130500016890 /* unselectedVolDownButton.jpg in Resources */,
+				BA6D5DE81B71C5B500AFF419 /* AutoActsTableViewCell.xib in Resources */,
 				BAB802CD1B6D5BA3003501E9 /* LaunchScreen.xib in Resources */,
+				BA9A36AB1B77130500016890 /* selectedVolDownButton.jpg in Resources */,
 				BAB802CA1B6D5BA3003501E9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,7 +296,18 @@
 			files = (
 				BAB802C51B6D5BA3003501E9 /* DetailViewController.swift in Sources */,
 				BAB802C31B6D5BA3003501E9 /* MasterViewController.swift in Sources */,
+				BAB802E51B6DA8F6003501E9 /* ProfileViewController.swift in Sources */,
 				BAB802C11B6D5BA3003501E9 /* AppDelegate.swift in Sources */,
+				BAE4D2361B82BA3900CCFAF4 /* JPSVolumeButtonHandler.m in Sources */,
+				BAB802E71B6DA90A003501E9 /* AutomatedActionsViewController.swift in Sources */,
+				BAB802E91B6DA928003501E9 /* ButtonSequencesViewController.swift in Sources */,
+				BA9A35A21B71FE8400016890 /* ButtonSeqsDatabase.swift in Sources */,
+				BAE4D2391B83F5E300CCFAF4 /* HardwareHandler.m in Sources */,
+				BA6D5DEC1B71CD4D00AFF419 /* AddAutoActsViewController.swift in Sources */,
+				BA6D5DE01B70024700AFF419 /* ContactDetailsViewController.swift in Sources */,
+				BA9A35A71B72C48E00016890 /* UserDatabase.xcdatamodeld in Sources */,
+				BA6D5DE71B71C5B500AFF419 /* AutoActsTableViewCell.swift in Sources */,
+				BA6D5DE21B700D8500AFF419 /* contactCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,9 +436,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MDTester/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MDTester-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -356,9 +449,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MDTester/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MDTester-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -415,6 +510,7 @@
 				BAB802DE1B6D5BA3003501E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAB802DF1B6D5BA3003501E9 /* Build configuration list for PBXNativeTarget "MDTesterTests" */ = {
 			isa = XCConfigurationList;
@@ -423,8 +519,23 @@
 				BAB802E11B6D5BA3003501E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA9A35A51B72C48E00016890 /* UserDatabase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA9A35A61B72C48E00016890 /* UserDatabase.xcdatamodel */,
+			);
+			currentVersion = BA9A35A61B72C48E00016890 /* UserDatabase.xcdatamodel */;
+			name = UserDatabase.xcdatamodeld;
+			path = ../UserDatabase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BAB802B31B6D5BA3003501E9 /* Project object */;
 }

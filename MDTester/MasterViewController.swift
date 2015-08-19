@@ -10,8 +10,14 @@ import UIKit
 
 class MasterViewController: UITableViewController {
 
-    var detailViewController: DetailViewController? = nil
+    /*var detailViewController: DetailViewController? = nil*/
     var objects = [AnyObject]()
+    
+    var topics: [String]?
+    
+    
+    var detailViewController: DetailViewController? = nil
+    //var objects = NSMutableArray()
 
 
     override func awakeFromNib() {
@@ -24,14 +30,12 @@ class MasterViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        self.navigationItem.leftBarButtonItem = self.editButtonItem()
-
-        let addButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "insertNewObject:")
-        self.navigationItem.rightBarButtonItem = addButton
-        if let split = self.splitViewController {
+        topics = ["Profile", "Contacts", "Automated Actions"]
+        if let split = splitViewController {
             let controllers = split.viewControllers
-            self.detailViewController = controllers[controllers.count-1].topViewController as? DetailViewController
+            detailViewController =
+                controllers[controllers.count-1].topViewController
+                as? DetailViewController
         }
     }
 
@@ -51,11 +55,28 @@ class MasterViewController: UITableViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "showDetail" {
             if let indexPath = self.tableView.indexPathForSelectedRow() {
-                let object = objects[indexPath.row] as! NSDate
-                let controller = (segue.destinationViewController as! UINavigationController).topViewController as! DetailViewController
-                controller.detailItem = object
-                controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
-                controller.navigationItem.leftItemsSupplementBackButton = true
+                let object: String? = topics![indexPath.row]
+                
+                if object == "Profile"
+                {
+                    performSegueWithIdentifier("goToProfileMC", sender: nil)
+                }
+                else if object == "Contacts"
+                {
+                    let controller = (segue.destinationViewController as! UINavigationController).topViewController as! DetailViewController
+                    controller.detailItem = object
+                    //controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
+                    //controller.navigationItem.leftItemsSupplementBackButton = true
+                    //detailViewController?.configureView()
+                }
+                else if object == "Automated Actions"
+                {
+                    performSegueWithIdentifier("goToAutoActsMC", sender: nil)
+                }
+                else
+                {
+                performSegueWithIdentifier("goToButtonSeqsMC", sender: nil)
+                }
             }
         }
     }
@@ -67,14 +88,16 @@ class MasterViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return objects.count
+        //return objects.count
+        return topics!.count
     }
 
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! UITableViewCell
-
-        let object = objects[indexPath.row] as! NSDate
-        cell.textLabel!.text = object.description
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+    {
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell",
+            forIndexPath: indexPath) as! UITableViewCell
+        
+        cell.textLabel!.text = topics![indexPath.row]
         return cell
     }
 
